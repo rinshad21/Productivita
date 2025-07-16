@@ -1,12 +1,53 @@
-# React + Vite
+# 🧠 PRODUCTIVITA
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and minimal **productivity web app** built using **React** and **Tailwind CSS**. It helps you stay organized and productive with essential tools like a **To-Do List**, **Notes**, **Stopwatch**, and **Habit Tracker** — all in one place.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+✅ **To-Do App**  
+Manage your tasks efficiently with checkboxes and auto-saving via localStorage.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ **Notes**  
+Write and save quick notes. Simple and distraction-free interface.
+
+✅ **Stopwatch**  
+Track time with start, pause, and reset functionality — great for Pomodoro-style focus sessions.
+
+✅ **Habit Tracker**  
+Track daily habits and streaks to build consistency.
+
+✅ **Persistent Storage**  
+All your data is saved in **localStorage** so nothing gets lost on refresh.
+
+✅ **Responsive UI**  
+Built with Tailwind CSS to ensure smooth performance across devices.
+
+---
+
+## 🛠 Tech Stack
+
+- ⚛️ React
+- 🎨 Tailwind CSS
+- 💾 localStorage API
+
+---
+
+
+---
+
+## 📦 run locally
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/productivita.git
+cd productivita
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
+
