@@ -47,13 +47,13 @@ function TodoApp() {
         {tasks.text}</span>
    <div className="flex gap-3 ml-5">
     <button
-      className="text-m text-[#4684e9] hover:scale-150 font-semibold"
+      className="text-m text-[#4684e9] active:scale-150 font-semibold"
       onClick={() => CompleteTask(index)}>
      <FontAwesomeIcon icon={faCheckDouble} />
     </button>
 
     <button
-      className="text-m text-[#e91d1d] hover:scale-150 font-semibold"
+      className="text-m text-[#e91d1d] active:scale-150 font-semibold"
       onClick={() => DeleteTask(index)}
     >
       X
@@ -62,7 +62,7 @@ function TodoApp() {
             </li>
              ))}
        </ol>
-        <button className="text-2xl font-semibold ml-2 hover:scale-125" onClick={addTask}>+</button>
+        <button className="text-2xl font-semibold ml-2 active:scale-125" onClick={addTask}>+</button>
         <input className="text-lg border-transparent  w-auto ml-1.5 outline-0" type="text"
           placeholder="Add task" value={newTask} onChange={handleInputChange} />
         

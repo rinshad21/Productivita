@@ -28,7 +28,7 @@ function Notes() {
                   value={note}
               onChange={(e)=>setNote(e.target.value)}/>
               
-    <button className="text-[#4684e9] hover:scale-125" onClick={handleCopy}><FontAwesomeIcon icon={faCopy} /></button>
+    <button className="text-[#4684e9] active:scale-125" onClick={handleCopy}><FontAwesomeIcon icon={faCopy} /></button>
               
     </Card > 
 

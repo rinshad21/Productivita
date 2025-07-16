@@ -23,7 +23,8 @@ function HabitTracker() {
     if (newHabit) {
       setHabits([...habits,
         {
-          name: newHabit, days: Array(7).fill(false)
+          name: newHabit,
+          days: Array(7).fill(false)
         }
        
       ]);
@@ -60,7 +61,7 @@ function HabitTracker() {
           <div
             key={habitIndex}
             className="flex justify-between items-center mb-3"
-          ><span> <button className="text-m  text-[#e91d1d]  hover:scale-150 font-semibold"
+          ><span> <button className="text-m  text-[#e91d1d]  active:scale-150 font-semibold"
                 onClick={()=> deleteHabbit(habitIndex)}>X</button></span>
             <span className="capitalize font-medium w-26">
               {habit.name}

@@ -58,9 +58,9 @@ function Stopwatch() {
               <div className="bg-[#4684e9] p-11 ml-8 mt-5 text-5xl pt-18 pl-4 font-semibold w-52 h-50 text-white rounded-full">
                   {Time()}</div>
               <div className="font-semibold  ml-5  p-5">
-              <button className="hover:bg-[#4684e9] hover:text-white bg-[hsl(0,13%,94%)] w-15  text-xl hover:scale-x-115 rounded-sm mr-3"onClick={start}>Start</button>
-                  <button className=" hover:bg-[#4684e9] hover:text-white  bg-[hsl(0,13%,94%)] w-15 mr-3 hover:scale-x-115 text-xl rounded-sm" onClick={stop}>Stop</button>
-                   <button className="hover:bg-[#4684e9] hover:text-white  bg-[hsl(0,13%,94%)]  w-15 hover:scale-x-115 text-xl rounded-sm"onClick={reset}>Reset</button>
+              <button className="active:bg-[#4684e9] active:text-white bg-[hsl(0,13%,94%)] w-15  text-xl active:scale-x-115 rounded-sm mr-3"onClick={start}>Start</button>
+                  <button className=" active:bg-[#4684e9] active:text-white  bg-[hsl(0,13%,94%)] w-15 mr-3 active:scale-x-115 text-xl rounded-sm" onClick={stop}>Stop</button>
+                   <button className="active:bg-[#4684e9] active:text-white  bg-[hsl(0,13%,94%)]  w-15 active:scale-x-115 text-xl rounded-sm"onClick={reset}>Reset</button>
             </div>
 </Card>
 
