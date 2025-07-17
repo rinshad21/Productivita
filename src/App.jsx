@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Header/>
-    <div  className="flex flex-wrap ml-18 lg:ml-27 gap-3 lg:gap-7 ">
+    <div  className="flex flex-wrap ml-9 lg:ml-27 gap-3 lg:gap-7 ">
     
       <TodoApp />
         <Notes />
