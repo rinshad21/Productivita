@@ -41,7 +41,7 @@ Built with Tailwind CSS to ensure smooth performance across devices.
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/productivita.git
+git clone https://github.com/rinshad21/productivita.git
 cd productivita
 
 # Install dependencies
